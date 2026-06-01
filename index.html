@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- A form built using fieldset and legend html element with a touchh of inline css -->
+    <form>
+        <fieldset style="border-color: #ff931f;  padding: 10px;">
+            <legend style="background-color: #ff931f; color: #ffffff; padding: 5px; border-radius: 5px;" >Shipping Address</legend>
+
+            <div>
+                <label for="streetAdd"> Street Address</label> <br/>
+                <input type="text" name="streetAdd" id="streetAdd" placeholder="e.g. 12 Aba Road" style="margin: 5px 0px; width: 100%;"/>
+            </div>
+
+            <div>
+                <label for="city">City</label> <br/>
+                <input type="text" placeholder="e.g. Port Harcourt" id="city" style="margin: 5px 0px; width: 100%;"/>
+            </div>
+            <div>
+                <label for="state>">State</label> <br/>
+                <select id="state" style="margin: 5px 0px; width: 100%;">
+                    <option>-- Select State --</option>
+                    <option>Abia</option>
+                    <option>Abuja</option>
+                    <option>Lagos</option>
+                    <option>Oyo</option>
+                    <option>Enugu</option>
+                    <option>Cross-Rivers</option>
+                    <option>Akwa-ibom</option>
+                    <option>Bayelsa</option>
+                    <option>Kogi</option>
+                </select>
+            </div>
+            <div>
+                <label for="country">Country</label> <br/>
+                <input type="text" id="country" name="country" style="margin-top: 5px; width: 100%;"/>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
